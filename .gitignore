@@ -9,12 +9,6 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-[Rr]esources/Ath*
-[Rr]esources/col*
-*.zip
-gdrive*
-*column*
-*athena*
 
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
@@ -27,9 +21,6 @@ gdrive*
 
 # Visual Studio cache directory
 .vs/
-
-# Ignore Quantum Theory
-[Aa]ssets/Quant*
 
 # Gradle cache directory
 .gradle/
@@ -71,4 +62,4 @@ crashlytics-build.properties
 Assets/Resources/OvrAvatarSettings.asset
 Assets/Resources/OculusPlatformSettings.asset
 VRMuseumUnityProj/Assets/Quantum Theory.zip
-*.asset
+
