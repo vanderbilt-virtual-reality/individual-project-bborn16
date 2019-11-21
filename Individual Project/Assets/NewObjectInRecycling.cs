@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewObjectInTrash : MonoBehaviour
+public class NewObjectInRecycling : MonoBehaviour
 {
     public Text displayText;
 
     private float spawnDist = 5;
-    
 
-    void OnTriggerEnter(Collider collider) 
+
+    void OnTriggerEnter(Collider collider)
     {
-        if (collider.tag == "Trash")
+        if (collider.tag == "Recyclable")
         {
-            if (displayText.text.Substring(0,2).Equals("Pu"))
+            if (displayText.text.Substring(0, 2).Equals("Pu"))
             {
                 displayText.text = "1/5";
             }
@@ -31,7 +31,7 @@ public class NewObjectInTrash : MonoBehaviour
                 }
             }
         }
-        else if (collider.tag == "Recyclable")
+        else if (collider.tag == "Trash")
         {
             collider.transform.position = new Vector3(Random.Range(-spawnDist, spawnDist), 10, Random.Range(-spawnDist, spawnDist));
         }
