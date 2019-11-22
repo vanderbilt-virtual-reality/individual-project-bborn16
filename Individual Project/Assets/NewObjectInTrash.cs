@@ -21,7 +21,7 @@ public class NewObjectInTrash : MonoBehaviour
             else
             {
                 int itemsFound = int.Parse(displayText.text.Substring(0, 1));
-                if (itemsFound == 5)
+                if (itemsFound == 4)
                 {
                     displayText.text = "Thanks for helping clean up!";
                 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RandomStart : MonoBehaviour
 {
-    private float spawnDist = 8;
+    private float spawnDist = 5;
 
     // Start is called before the first frame update
     void Start()
