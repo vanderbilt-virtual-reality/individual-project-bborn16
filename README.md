@@ -4,6 +4,9 @@
 
 * 2019.2.8f1
 
+## Game Instructions
+The goal of this game is to pick up all five objects around you and correctly in trash or recycling.  Objects will start at randomly generated points.  If they are placed into the correct bin, they will stay there and your score will increase, as shown by the scoreboard.  If you place an item in the wrong bin, it will go to a new random location on the map.
+
 ## Why did you make this?
 I made this project as a way to build sustainable habits.  The idea for this project came to me when I was walking through Rand Dining Center and looked at observed how people used the trash cans and the recycling.  People will put anything in recycling if there isn't a trash can nearby while also putting a lot of what could be recycled into a trash can.  This stems from a combination of both laziness and knowledge.  On a larger scale, the world as a whole struggles to recycle items.  Waste is generally undesired and there's only so many places to put our waste.  It doesn't take much research or much time to realize that this is an issue.  Though I don't feel like I need to say too much about why we should recycle, it's important to restate the need.  Reducing how much we consume has lots of positive benefits.  Also, our current trends of consumption aren't sustainable.  I made this as a game to add fun and reduce the physical toll associated with doing something that can sometimes be seen as a menial task.
 
